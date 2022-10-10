@@ -1,0 +1,14 @@
+
+<div class="task"
+    [ngClass]="{reminder: tareas.reminder}"
+    (click)="cambiaReminder(tareas)">
+
+    <p>{{tareas.textoTarea}} 
+        <fa-icon [icon]="faTimes"
+        [ngStyle] = "{'color':'red'}"
+        (click)="onDelete(tareas)">
+
+    </fa-icon></p>
+    <p>{{tareas.textoDia}}</p>
+
+</div>

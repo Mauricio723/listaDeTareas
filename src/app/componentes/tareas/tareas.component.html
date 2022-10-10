@@ -1,0 +1,11 @@
+
+<app-addtarea
+    (onAddTask)="agregarTarea($event)">
+</app-addtarea>
+
+<app-itemtask
+    *ngFor="let tarea of tareas"
+    [tareas] = "tarea"
+    (onDeleteTarea)="deleteTarea(tarea)"
+    (modificaReminder)="cambiaReminder(tarea)">
+</app-itemtask>

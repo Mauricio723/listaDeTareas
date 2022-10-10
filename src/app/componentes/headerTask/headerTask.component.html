@@ -1,0 +1,11 @@
+<header>    
+    <h1>{{tituloEncabezado}}</h1>   
+
+    <app-botonTask
+        color="{{showAddTask ? 'red' : 'green'}}"
+        text="{{showAddTask ? 'Cerrar formulario tarea' : 'Agregar Nueva Tarea'}}"
+        (btnClick)= 'toggleAddTask()'   
+        *ngIf="hasRouter('/')"     
+    >
+    </app-botonTask>
+</header>

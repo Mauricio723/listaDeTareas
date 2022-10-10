@@ -1,0 +1,40 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "textoTarea": "Comenzar primer modulo de Angular",
+      "textoDia": "Septiembre 5 a las 20:00",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "textoTarea": "Investigar sobre Angular",
+      "textoDia": "Septiembre 10 a las 20:00",
+      "reminder": false
+    },
+    {
+      "textoTarea": "Trabajar en el Portfolio",
+      "textoDia": "Septiembre 20 a las 20:00",
+      "reminder": true,
+      "id": 8
+    },
+    {
+      "textoTarea": "Terminar con el trabajo páctico de Angular",
+      "textoDia": "Septiembre 30 a las 22:00",
+      "reminder": false,
+      "id": 12
+    },
+    {
+      "textoTarea": "Lectura de Base de Datos",
+      "textoDia": "Octubre 10 a las 20:00",
+      "reminder": true,
+      "id": 13
+    },
+    {
+      "textoTarea": "Investigar sobre SQL",
+      "textoDia": "Octubre 15 a las 20:00",
+      "reminder": true,
+      "id": 14
+    }
+  ]
+}
